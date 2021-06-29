@@ -11,6 +11,7 @@ To activate the environment:
 
 ## Project Organization:  
   
+```
 nrel-fhwa-aadt-validation/
 ├── figs/
 |   ├── comp-errors/
@@ -51,6 +52,7 @@ nrel-fhwa-aadt-validation/
 |   |   ├── total_comparisons_by_aadt_bin_wide.png    <- comparisons by wide "ground truth" AADT bin
 |   |   ├── total_comparisons_by_state.png            <- comparisons by state
 |   |   ├── urban_rural_pie.png                       <- comparisons by urban/rural designation
+```
 
 ## Citation:  
 `Forthcoming`  
