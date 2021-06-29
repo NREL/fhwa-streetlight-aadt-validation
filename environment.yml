@@ -1,0 +1,15 @@
+name: nrel-fhwa-aadt-validation
+channels:
+  - defaults
+dependencies:
+  - matplotlib
+  - numpy
+  - pandas
+  - pathlib
+  - pip
+  - python=3
+  - scipy
+  - seaborn
+  - statsmodels
+  - pip:
+    - jupyterlab
