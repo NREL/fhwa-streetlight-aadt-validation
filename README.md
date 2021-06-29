@@ -13,8 +13,8 @@ To activate the environment:
   
 ```
 nrel-fhwa-aadt-validation/
-├── figs/
-|   ├── comp-errors/
+├── figs/                                             <- plots and figures
+|   ├── comp-errors/                                  <- comparison error plots
 |   |   ├── cdfs/                                     <- cumulative distribution function plots
 |   |   |   ├── abs-error/                            <- absolute error plots
 |   |   |   |   ├── by-aadt-bin-narrow/               <- group by narrow roadway AADT bin (10 bins total)
@@ -47,11 +47,22 @@ nrel-fhwa-aadt-validation/
 |   |       ├── ...
 |   |   
 |   ├── comp-summaries/                               <- data set summary plots
-|   |   ├── data_source_pie.png                       <- "ground truth" comparisons distribution - TMAS vs. toll
-|   |   ├── total_comparisons_by_aadt_bin_narrow.png  <- comparisons by narrow "ground truth" AADT bin
-|   |   ├── total_comparisons_by_aadt_bin_wide.png    <- comparisons by wide "ground truth" AADT bin
-|   |   ├── total_comparisons_by_state.png            <- comparisons by state
-|   |   ├── urban_rural_pie.png                       <- comparisons by urban/rural designation
+|       ├── data_source_pie.png                       <- "ground truth" comparisons distribution - TMAS vs. toll
+|       ├── total_comparisons_by_aadt_bin_narrow.png  <- comparisons by narrow "ground truth" AADT bin
+|       ├── total_comparisons_by_aadt_bin_wide.png    <- comparisons by wide "ground truth" AADT bin
+|       ├── total_comparisons_by_state.png            <- comparisons by state
+|       ├── urban_rural_pie.png                       <- comparisons by urban/rural designation
+|
+├── inpt_data/
+|   ├── nrel_aadt_results_06022021.csv                <- NREL-processed AADT comparisons
+|
+├── nbs/                                              <- Jupyter notebooks
+|   ├── analyze_aadt_estimates.ipynb                  <- nb for results generation
+|
+├── src/                                              <- Python source code
+    ├── calcs.py                                      <- error functions
+    ├── helpers.py                                    <- helper functions
+    ├── visualize.py                                  <- plotting functions
 ```
 
 ## Citation:  
