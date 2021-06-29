@@ -12,7 +12,7 @@ To activate the environment:
 ## Project Organization:  
   
 ```
-nrel-fhwa-aadt-validation/
+fhwa-streetlight-aadt-validation/
 ├── figs/                                             <- plots and figures
 |   ├── comp-errors/                                  <- comparison error plots
 |   |   ├── cdfs/                                     <- cumulative distribution function plots
