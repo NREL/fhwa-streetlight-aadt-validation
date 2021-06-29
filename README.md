@@ -1,4 +1,4 @@
-# NREL FHWA 
+# fhwa-streetlight-aadt-validation
 
 ## Overview:  
 Code produced for [     ] validation study to compare AADT estimates from [      ] to [      ]. For this study, [     ] were treated as "ground truth". The study's findings are documented in the publicly-available report, "[    ]". **This software is provided as-is without dedicated support**. The programming environment for this study may be reproduced with conda (installed via the Anaconda [website](https://docs.anaconda.com/anaconda/install/)):
