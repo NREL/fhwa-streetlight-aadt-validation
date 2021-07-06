@@ -1,7 +1,7 @@
 # fhwa-streetlight-aadt-validation
 
 ## Overview:  
-Code produced for [     ] validation study to compare AADT estimates from [      ] to [      ]. For this study, [     ] were treated as "ground truth". The study's findings are documented in the publicly-available report, "[    ]". **This software is provided as-is without dedicated support**. The programming environment for this study may be reproduced with conda (installed via the Anaconda [website](https://docs.anaconda.com/anaconda/install/)):
+The National Renewable Energy Laboratory (NREL) was enlisted to conduct an independent validation of annual average daily traffic (AADT) estimates from the commercial data provider, Streetlight Data. This repo contains the code developed for this effort, as is documented in the publicly-available report, _Validation of Non-Traditional Approaches to Average Annual Daily Traffic (AADT) Volume Estimation_. **This software is provided as-is without dedicated support**. The programming environment for this study may be reproduced with conda (installed via the Anaconda [website](https://docs.anaconda.com/anaconda/install/)):
 
 `conda env create -f environment.yml`
 
