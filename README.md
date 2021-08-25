@@ -64,6 +64,11 @@ fhwa-streetlight-aadt-validation/
     ├── helpers.py                                    <- helper functions
     ├── visualize.py                                  <- plotting functions
 ```
+  
+## Additional Information:  
+**Title**: *Validation of Non-Traditional Approaches to Average Annual Daily Traffic (AADT) Volume Estimation*  
+  
+**Abstract**: Over the last decade, new technologies and data have matured to the extent that several vendors have developed commercial traffic volume products based on passive data sources. These passive data may originate from vehicle-based sensors, smartphone-based GPS and location-based services (LBS) data, cell tower data, or Bluetooth detection. Additionally, improvements in cloud-based data storage and computing resources have enabled these technologies and data to be processed and made available at a scale that would have been unimaginable even a decade ago. Reliable traffic volume estimates obtained from passive data sources could reduce costs and improve efficiency for State Departments of Transportation (DOTs), Metropolitan Planning Organizations (MPOs), and local agencies. To evaluate the potential for using passive data sources to estimate annual average daily traffic (AADT), the National Renewable Energy Lab (NREL) conducted an independent validation of estimates from a commercial data provider, Streetlight Data. NREL’s research found that the AADT estimates derived from passive data sources are highly correlated with ground truth data obtained from permanently installed counters, though nonnegligible errors were observed. The findings suggest that passive data sources can play an important role in a comprehensive approach to traffic monitoring. Depending on specific agency needs, estimates from passive data collection may supplement or replace existing data sources, potentially reducing the cost of data collection and increasing coverage.
 
 ## Citation:  
 `Forthcoming`  
